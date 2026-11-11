@@ -13,7 +13,7 @@ index.html          the page
 assets/styles.css   all styling
 assets/main.js      scroll reveal, active nav, live clocks
 assets/favicon.svg  monogram favicon
-assets/scoreplus-on-air.png  hero screenshot of ScorePlus on air (copied from the ScorePlus site)
+assets/scoreplus-on-air.png  hero screenshot in the featured project card (copied from the ScorePlus site)
 .nojekyll           serve files as-is on GitHub Pages
 ```
 

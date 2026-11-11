@@ -288,13 +288,11 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
   position: relative;
 }
 
-.hero-copy { max-width: 640px; }
+.hero-copy { max-width: 900px; }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.04fr 0.96fr;
-  gap: clamp(2rem, 4.5vw, 3.8rem);
-  align-items: center;
+  grid-template-columns: 1fr;
 }
 
 .hero h1 {
@@ -353,11 +351,11 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
   font-weight: 500;
 }
 
-/* ---------------- hero screenshot ---------------- */
+/* ---------------- project screenshot ---------------- */
 
-.hero-shot { margin: 0; }
+.shot { margin: 0; }
 
-.hero-shot img {
+.shot img {
   width: 100%;
   height: auto;
   border-radius: 14px;
@@ -368,7 +366,7 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
     0 0 0 1px rgba(74, 222, 128, 0.08);
 }
 
-.hero-shot figcaption {
+.shot figcaption {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -454,7 +452,8 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
 
 .feature {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1.08fr 0.92fr;
+  align-items: center;
   gap: clamp(2rem, 4vw, 3.5rem);
   padding: clamp(1.6rem, 3vw, 2.8rem);
   border: 1px solid var(--line-strong);
@@ -788,8 +787,8 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
 /* ---------------- responsive ---------------- */
 
 @media (max-width: 1000px) {
-  .hero-grid { grid-template-columns: 1fr; }
-  .hero-shot { max-width: 620px; }
+  .feature { grid-template-columns: 1fr; }
+  .shot { order: -1; max-width: 620px; }
   .about-grid { grid-template-columns: 1fr; }
   .specs { grid-template-columns: repeat(2, 1fr); }
   .nav { display: none; }
