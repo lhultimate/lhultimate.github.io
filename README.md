@@ -11,8 +11,9 @@ Hand-written HTML, CSS and JavaScript. No framework, no package manager, no buil
 ```
 index.html          the page
 assets/styles.css   all styling
-assets/main.js      scroll reveal, active nav, live clocks
-assets/favicon.svg  monogram favicon
+assets/main.js      scroll reveal, active nav, pointer spotlight
+assets/logo.png      brand logo, used in the header and footer
+assets/favicon.png   square favicon cropped from the logo
 assets/scoreplus-on-air.png  hero screenshot in the featured project card (copied from the ScorePlus site)
 .nojekyll           serve files as-is on GitHub Pages
 ```

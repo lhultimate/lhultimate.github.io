@@ -225,20 +225,15 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
   font-weight: 500;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
+.brand-logo {
   width: 34px;
   height: 34px;
   border-radius: 9px;
-  background: var(--green);
-  color: #04130b;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.82rem;
-  letter-spacing: -0.04em;
+  object-fit: cover;
+  border: 1px solid rgba(56, 215, 163, 0.35);
+  background: #0b1119;
 }
-.brand-mark.small { width: 26px; height: 26px; border-radius: 7px; font-size: 0.65rem; }
+.brand-logo.small { width: 26px; height: 26px; border-radius: 7px; }
 
 .nav {
   display: flex;
@@ -701,19 +696,6 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
   color: rgba(56, 215, 163, 0.6);
 }
 
-.monogram {
-  display: grid;
-  place-items: center;
-  height: 96px;
-  border-radius: var(--radius);
-  border: 1px dashed var(--line-strong);
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.05em;
-  color: rgba(255, 255, 255, 0.16);
-  background: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.025) 0 8px, transparent 8px 16px);
-}
 
 /* ---------------- CTA ---------------- */
 
