@@ -1,8 +1,8 @@
-# LHUltimate — personal site
+# LHUltimate - My Website
 
 A single-page site about my work as a programmer, featuring
 [ScorePlus](https://lhultimate.github.io/ScorePlus/) — my scoreboard and broadcast
-graphics software.
+graphics software. It's my only project right now, I'm thinking about making just a standalone broadcasting software that can be for live events outside of sports.
 
 Hand-written HTML, CSS and JavaScript. No framework, no package manager, no build step.
 
@@ -17,6 +17,7 @@ assets/favicon.svg  monogram favicon
 ```
 
 ## Run locally
+I don't know why you would want to run it yourself, but here's the steps:
 
 Open `index.html` directly, or serve the folder:
 
