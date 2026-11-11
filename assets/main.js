@@ -84,28 +84,4 @@
     });
   }
 
-  /* ---------- scorebug clocks ---------- */
-  var clocks = Array.prototype.slice.call(document.querySelectorAll("[data-clock], [data-clock-secondary]"));
-  if (!clocks.length) return;
-
-  // A quarter of game clock, counting down and resetting — purely decorative.
-  var remaining = 12 * 60; // seconds
-
-  function pad(n) { return n < 10 ? "0" + n : String(n); }
-
-  function render() {
-    var minutes = Math.floor(remaining / 60);
-    var seconds = remaining % 60;
-    var text = pad(minutes) + ":" + pad(seconds);
-    clocks.forEach(function (el) { el.textContent = text; });
-  }
-
-  render();
-
-  if (reduceMotion) return;
-
-  window.setInterval(function () {
-    remaining = remaining > 0 ? remaining - 1 : 12 * 60;
-    render();
-  }, 1000);
 })();
