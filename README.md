@@ -1,4 +1,4 @@
-# lhultimate.github.io — personal site
+# LHUltimate — personal site
 
 A single-page site about my work as a programmer, featuring
 [ScorePlus](https://lhultimate.github.io/ScorePlus/) — my scoreboard and broadcast
