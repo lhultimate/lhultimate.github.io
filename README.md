@@ -19,7 +19,7 @@ assets/scoreplus-on-air.png  hero screenshot in the featured project card (copie
 ```
 
 ## Run locally
-I don't know why you would want to run it yourself, but here's the steps:
+I don't know why you would want to run this yourself, but here's the steps:
 
 Open `index.html` directly, or serve the folder:
 
