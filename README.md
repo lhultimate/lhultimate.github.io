@@ -32,4 +32,4 @@ python -m http.server 8080
 
 Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder: `/ (root)`.
 
-Published at https://lhultimate.github.io/ (branch `main`, folder `/`).
+Published at https://lhultimate.github.io/Website/ (branch `main`, folder `/`).
