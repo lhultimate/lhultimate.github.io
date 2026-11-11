@@ -32,5 +32,4 @@ python -m http.server 8080
 
 Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder: `/ (root)`.
 
-GitHub Pages for a private repository requires a paid GitHub plan, so this repo must be
-public (or the account must have Pages on private repos) before Pages will build.
+Published at https://lhultimate.github.io/ (branch `main`, folder `/`).
