@@ -14,7 +14,7 @@ assets/styles.css   all styling
 assets/main.js      scroll reveal, active nav, pointer spotlight
 assets/logo.png      brand logo, used in the header and footer
 assets/favicon.png   square favicon cropped from the logo
-assets/scoreplus-on-air.png  hero screenshot in the featured project card (copied from the ScorePlus site)
+assets/console.png    control panel screenshot in the featured project card (from the ScorePlus site)
 .nojekyll           serve files as-is on GitHub Pages
 ```
 
