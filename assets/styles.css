@@ -697,8 +697,6 @@ main, .site-head, .site-foot { position: relative; z-index: 2; }
   color: var(--muted);
 }
 
-.quote-alt figcaption { color: var(--green); }
-
 
 /* ---------------- CTA ---------------- */
 
